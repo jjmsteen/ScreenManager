@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		693BEE4114BC896900482B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BEE4014BC896900482B75 /* Foundation.framework */; };
+		693BEE4F14BC896900482B75 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BEE4E14BC896900482B75 /* SenTestingKit.framework */; };
+		693BEE5114BC896900482B75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BEE5014BC896900482B75 /* UIKit.framework */; };
+		693BEE5214BC896900482B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BEE4014BC896900482B75 /* Foundation.framework */; };
+		693BEE5514BC896900482B75 /* libScreenManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 693BEE3D14BC896900482B75 /* libScreenManager.a */; };
+		693BEE5B14BC896900482B75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 693BEE5914BC896900482B75 /* InfoPlist.strings */; };
+		693BEE5E14BC896900482B75 /* ScreenManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE5D14BC896900482B75 /* ScreenManagerTests.m */; };
+		693BEE6914BC89A000482B75 /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = 693BEE6814BC89A000482B75 /* Game.h */; };
+		693BEE6B14BC89D000482B75 /* Screen.h in Headers */ = {isa = PBXBuildFile; fileRef = 693BEE6A14BC89D000482B75 /* Screen.h */; };
+		693BEE6D14BC89FF00482B75 /* Menu.h in Headers */ = {isa = PBXBuildFile; fileRef = 693BEE6C14BC89FF00482B75 /* Menu.h */; };
+		693BEE6F14BC8AA300482B75 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE6E14BC8AA300482B75 /* Game.cpp */; };
+		693BEE7014BC8AA300482B75 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE6E14BC8AA300482B75 /* Game.cpp */; };
+		693BEE7214BC8CB900482B75 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7114BC8CB900482B75 /* Screen.cpp */; };
+		693BEE7314BC8CB900482B75 /* Screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7114BC8CB900482B75 /* Screen.cpp */; };
+		693BEE7614BC90A500482B75 /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = 693BEE7514BC90A500482B75 /* Rect.h */; };
+		693BEE7814BC920E00482B75 /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7714BC920E00482B75 /* Rect.cpp */; };
+		693BEE7914BC920E00482B75 /* Rect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7714BC920E00482B75 /* Rect.cpp */; };
+		693BEE7B14BC956700482B75 /* Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 693BEE7A14BC956700482B75 /* Button.h */; };
+		693BEE7D14BC959400482B75 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7C14BC959400482B75 /* Button.cpp */; };
+		693BEE7E14BC959400482B75 /* Button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7C14BC959400482B75 /* Button.cpp */; };
+		693BEE8014BC997300482B75 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7F14BC997300482B75 /* Menu.cpp */; };
+		693BEE8114BC997300482B75 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 693BEE7F14BC997300482B75 /* Menu.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		693BEE5314BC896900482B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693BEE3414BC896900482B75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693BEE3C14BC896900482B75;
+			remoteInfo = ScreenManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		693BEE3D14BC896900482B75 /* libScreenManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScreenManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		693BEE4014BC896900482B75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		693BEE4414BC896900482B75 /* ScreenManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenManager-Prefix.pch"; sourceTree = "<group>"; };
+		693BEE4D14BC896900482B75 /* ScreenManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		693BEE4E14BC896900482B75 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		693BEE5014BC896900482B75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		693BEE5814BC896900482B75 /* ScreenManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenManagerTests-Info.plist"; sourceTree = "<group>"; };
+		693BEE5A14BC896900482B75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		693BEE5C14BC896900482B75 /* ScreenManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenManagerTests.h; sourceTree = "<group>"; };
+		693BEE5D14BC896900482B75 /* ScreenManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenManagerTests.m; sourceTree = "<group>"; };
+		693BEE6814BC89A000482B75 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		693BEE6A14BC89D000482B75 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		693BEE6C14BC89FF00482B75 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		693BEE6E14BC8AA300482B75 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		693BEE7114BC8CB900482B75 /* Screen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Screen.cpp; sourceTree = "<group>"; };
+		693BEE7514BC90A500482B75 /* Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
+		693BEE7714BC920E00482B75 /* Rect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rect.cpp; sourceTree = "<group>"; };
+		693BEE7A14BC956700482B75 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		693BEE7C14BC959400482B75 /* Button.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Button.cpp; sourceTree = "<group>"; };
+		693BEE7F14BC997300482B75 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		693BEE3A14BC896900482B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693BEE4114BC896900482B75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693BEE4914BC896900482B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693BEE4F14BC896900482B75 /* SenTestingKit.framework in Frameworks */,
+				693BEE5114BC896900482B75 /* UIKit.framework in Frameworks */,
+				693BEE5214BC896900482B75 /* Foundation.framework in Frameworks */,
+				693BEE5514BC896900482B75 /* libScreenManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		693BEE3214BC896900482B75 = {
+			isa = PBXGroup;
+			children = (
+				693BEE4214BC896900482B75 /* ScreenManager */,
+				693BEE5614BC896900482B75 /* ScreenManagerTests */,
+				693BEE3F14BC896900482B75 /* Frameworks */,
+				693BEE3E14BC896900482B75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		693BEE3E14BC896900482B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE3D14BC896900482B75 /* libScreenManager.a */,
+				693BEE4D14BC896900482B75 /* ScreenManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		693BEE3F14BC896900482B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE4014BC896900482B75 /* Foundation.framework */,
+				693BEE4E14BC896900482B75 /* SenTestingKit.framework */,
+				693BEE5014BC896900482B75 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693BEE4214BC896900482B75 /* ScreenManager */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE7414BC909000482B75 /* Drawing */,
+				693BEE6714BC898C00482B75 /* High Level Structures */,
+				693BEE4314BC896900482B75 /* Supporting Files */,
+			);
+			path = ScreenManager;
+			sourceTree = "<group>";
+		};
+		693BEE4314BC896900482B75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE4414BC896900482B75 /* ScreenManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		693BEE5614BC896900482B75 /* ScreenManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE5C14BC896900482B75 /* ScreenManagerTests.h */,
+				693BEE5D14BC896900482B75 /* ScreenManagerTests.m */,
+				693BEE5714BC896900482B75 /* Supporting Files */,
+			);
+			path = ScreenManagerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		693BEE5714BC896900482B75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE5814BC896900482B75 /* ScreenManagerTests-Info.plist */,
+				693BEE5914BC896900482B75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		693BEE6714BC898C00482B75 /* High Level Structures */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE6814BC89A000482B75 /* Game.h */,
+				693BEE6E14BC8AA300482B75 /* Game.cpp */,
+				693BEE6A14BC89D000482B75 /* Screen.h */,
+				693BEE7114BC8CB900482B75 /* Screen.cpp */,
+				693BEE6C14BC89FF00482B75 /* Menu.h */,
+				693BEE7F14BC997300482B75 /* Menu.cpp */,
+				693BEE7A14BC956700482B75 /* Button.h */,
+				693BEE7C14BC959400482B75 /* Button.cpp */,
+			);
+			name = "High Level Structures";
+			sourceTree = "<group>";
+		};
+		693BEE7414BC909000482B75 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				693BEE7514BC90A500482B75 /* Rect.h */,
+				693BEE7714BC920E00482B75 /* Rect.cpp */,
+			);
+			name = Drawing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		693BEE3B14BC896900482B75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693BEE6914BC89A000482B75 /* Game.h in Headers */,
+				693BEE6B14BC89D000482B75 /* Screen.h in Headers */,
+				693BEE6D14BC89FF00482B75 /* Menu.h in Headers */,
+				693BEE7614BC90A500482B75 /* Rect.h in Headers */,
+				693BEE7B14BC956700482B75 /* Button.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		693BEE3C14BC896900482B75 /* ScreenManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693BEE6114BC896900482B75 /* Build configuration list for PBXNativeTarget "ScreenManager" */;
+			buildPhases = (
+				693BEE3914BC896900482B75 /* Sources */,
+				693BEE3A14BC896900482B75 /* Frameworks */,
+				693BEE3B14BC896900482B75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenManager;
+			productName = ScreenManager;
+			productReference = 693BEE3D14BC896900482B75 /* libScreenManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		693BEE4C14BC896900482B75 /* ScreenManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693BEE6414BC896900482B75 /* Build configuration list for PBXNativeTarget "ScreenManagerTests" */;
+			buildPhases = (
+				693BEE4814BC896900482B75 /* Sources */,
+				693BEE4914BC896900482B75 /* Frameworks */,
+				693BEE4A14BC896900482B75 /* Resources */,
+				693BEE4B14BC896900482B75 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				693BEE5414BC896900482B75 /* PBXTargetDependency */,
+			);
+			name = ScreenManagerTests;
+			productName = ScreenManagerTests;
+			productReference = 693BEE4D14BC896900482B75 /* ScreenManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		693BEE3414BC896900482B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 693BEE3714BC896900482B75 /* Build configuration list for PBXProject "ScreenManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 693BEE3214BC896900482B75;
+			productRefGroup = 693BEE3E14BC896900482B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				693BEE3C14BC896900482B75 /* ScreenManager */,
+				693BEE4C14BC896900482B75 /* ScreenManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		693BEE4A14BC896900482B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693BEE5B14BC896900482B75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		693BEE4B14BC896900482B75 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693BEE3914BC896900482B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693BEE6F14BC8AA300482B75 /* Game.cpp in Sources */,
+				693BEE7214BC8CB900482B75 /* Screen.cpp in Sources */,
+				693BEE7814BC920E00482B75 /* Rect.cpp in Sources */,
+				693BEE7D14BC959400482B75 /* Button.cpp in Sources */,
+				693BEE8014BC997300482B75 /* Menu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693BEE4814BC896900482B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693BEE5E14BC896900482B75 /* ScreenManagerTests.m in Sources */,
+				693BEE7014BC8AA300482B75 /* Game.cpp in Sources */,
+				693BEE7314BC8CB900482B75 /* Screen.cpp in Sources */,
+				693BEE7914BC920E00482B75 /* Rect.cpp in Sources */,
+				693BEE7E14BC959400482B75 /* Button.cpp in Sources */,
+				693BEE8114BC997300482B75 /* Menu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		693BEE5414BC896900482B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 693BEE3C14BC896900482B75 /* ScreenManager */;
+			targetProxy = 693BEE5314BC896900482B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		693BEE5914BC896900482B75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693BEE5A14BC896900482B75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		693BEE5F14BC896900482B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		693BEE6014BC896900482B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		693BEE6214BC896900482B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScreenManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenManager/ScreenManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		693BEE6314BC896900482B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ScreenManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenManager/ScreenManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		693BEE6514BC896900482B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenManager/ScreenManager-Prefix.pch";
+				INFOPLIST_FILE = "ScreenManagerTests/ScreenManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		693BEE6614BC896900482B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenManager/ScreenManager-Prefix.pch";
+				INFOPLIST_FILE = "ScreenManagerTests/ScreenManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		693BEE3714BC896900482B75 /* Build configuration list for PBXProject "ScreenManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693BEE5F14BC896900482B75 /* Debug */,
+				693BEE6014BC896900482B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693BEE6114BC896900482B75 /* Build configuration list for PBXNativeTarget "ScreenManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693BEE6214BC896900482B75 /* Debug */,
+				693BEE6314BC896900482B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		693BEE6414BC896900482B75 /* Build configuration list for PBXNativeTarget "ScreenManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693BEE6514BC896900482B75 /* Debug */,
+				693BEE6614BC896900482B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 693BEE3414BC896900482B75 /* Project object */;
+}
