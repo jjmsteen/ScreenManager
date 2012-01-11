@@ -12,9 +12,9 @@
 #include "Rect.h"
 
 class Button 
-{
+{    
     // The rect the button covers on the screen
-    Rect buttonArea;
+    Rect buttonRect;
     
     // A function pointer to the function the button calls when pressed
     void (*pressAction)(void *);   
@@ -22,10 +22,16 @@ class Button
     
 public:
     
+    // A public var that identifies the button as selected or not
+    bool IsSelected;
+    
     // Constructor with a rect for the button and a function to execute when
     // pressed
     Button(const Rect & rect, void (*pressAction)(void*) = 0);
     
+    // Getters and setters
+    
+    const Rect & GetRect() const { return buttonRect; }
     
     // Game loop functions
     
@@ -34,6 +40,8 @@ public:
     virtual void Draw() = 0;
     
     virtual void Press();
+    
+    
     
 };
 

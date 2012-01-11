@@ -9,7 +9,7 @@
 #include "Button.h"
 
 Button::Button(const Rect & rect, void (*pressAction)(void*))
-: buttonArea(rect), pressAction(pressAction)
+: buttonRect(rect), pressAction(pressAction), IsSelected(false)
 {
     
 }

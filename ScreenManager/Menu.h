@@ -28,6 +28,14 @@ public:
     
     virtual void Draw();
     
+    // Mouse or finger touch functions
+    
+    // Check a touch down point against the menu
+    virtual void CheckTouchDownPoint(float x, float y);
+    
+    // Check a touch up point against the menu
+    virtual void CheckTouchUpPoint(float x, float y);
+    
 };
 
 #endif

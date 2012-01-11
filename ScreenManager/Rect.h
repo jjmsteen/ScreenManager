@@ -25,9 +25,9 @@ public:
     
     // Containment functions
     
-    bool ContainsPoint(float x, float y);
+    bool ContainsPoint(float x, float y) const;
     
-    bool ContainsRect(const Rect & r);
+    bool ContainsRect(const Rect & r) const;
     
 };
 

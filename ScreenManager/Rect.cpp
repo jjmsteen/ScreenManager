@@ -19,7 +19,7 @@ Rect::~Rect()
     
 }
 
-bool Rect::ContainsPoint(float x, float y)
+bool Rect::ContainsPoint(float x, float y) const
 {
     // Check if x isn't within rect
     if ((x < this->x) || (x > (this->x + this->width)))
@@ -33,7 +33,7 @@ bool Rect::ContainsPoint(float x, float y)
         
 }
 
-bool Rect::ContainsRect(const Rect & r)
+bool Rect::ContainsRect(const Rect & r) const
 {
     throw "Not implemented";
 }
