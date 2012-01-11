@@ -35,5 +35,5 @@ bool Rect::ContainsPoint(float x, float y)
 
 bool Rect::ContainsRect(const Rect & r)
 {
-    throw "Not implemented";
+    throw "Unimplemented";
 }
